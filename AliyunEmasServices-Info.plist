@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>private_cloud_config</key>
+	<dict>
+		<key>HA</key>
+		<dict>
+			<key>RSAPublicKey</key>
+			<string> </string>
+			<key>OSSBucketName</key>
+			<string>emas-poc-private</string>
+			<key>ServiceID</key>
+			<string>emas-ha</string>
+			<key>UniversalHost</key>
+			<string>adash-pre-k8s.emas-poc.com:32080</string>
+			<key>TimestampHost</key>
+			<string>aserver-pre-k8s.emas-poc.com:30080</string>
+		</dict>
+		<key>Hotfix</key>
+		<dict>
+			<key>URL</key>
+			<string> </string>
+		</dict>
+		<key>ZCache</key>
+		<dict>
+			<key>URL</key>
+			<string>http://mobilehubdev.taobao.com/eweex/</string>
+		</dict>
+		<key>MTOP</key>
+		<dict>
+			<key>Domain</key>
+			<string>aserver-pre-k8s.emas-poc.com:30080</string>
+		</dict>
+		<key>Network</key>
+		<dict>
+			<key>IPStrategy</key>
+			<dict>
+			</dict>
+		</dict>
+		<key>ACCS</key>
+		<dict>
+			<key>Domain</key>
+			<string>accs-pre-k8s.emas-poc.com</string>
+		</dict>
+		<key>UseHTTP</key>
+		<true/>
+		<key>ChannelID</key>
+		<string>1001@POC_iOS_1.0.0</string>
+		<key>AppSecret</key>
+		<string>5d1a4c777040ab67f15e71459d1ea364</string>
+		<key>AppKey</key>
+		<string>20000333</string>
+	</dict>
+</dict>
+</plist>
